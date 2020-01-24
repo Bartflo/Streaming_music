@@ -1,0 +1,39 @@
+.discover-main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  
+  .discover-main-section .image-covers{
+    background-image: url(images/covers.jpg);
+    flex-grow: 1;
+    max-height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center right;
+  }
+  
+  .discover-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+  }
+  .icon-section{
+    display:flex;
+  }
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5rem;
+    padding: .75rem;
+    width: 100px;
+    height: 100px;
+    background-color: #202027;
+    margin-bottom: 2rem;
+  }
