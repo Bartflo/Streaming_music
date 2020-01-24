@@ -37,3 +37,15 @@
     background-color: #202027;
     margin-bottom: 2rem;
   }
+  @media (max-width: 800px) {
+    .discover-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .discover-main-section .image-covers {
+      margin-top: 2rem;
+      height: 30vh;
+      width: auto;
+    }
+  }
