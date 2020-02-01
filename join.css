@@ -1,0 +1,72 @@
+.join-main-section{
+    display:flex;
+    flex-grow:1;
+    justify-content: space-between;
+    align-items:center;
+}
+.join-title{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size:4.5rem;
+}
+.join-title .accent-title{
+    margin-left:.5rem;
+    color:#BC3A80;
+}
+.form-group{
+    background-color:#202027;
+    width:50vw;
+    max-width:50%;
+    padding:2rem 4rem;
+    border-radius:20px;
+}
+.register{
+    font-size:1.25rem;
+}
+.register-text{
+    height:2.75rem;
+    width:100%;
+    background:none;
+    outline:none;
+    border:1px solid #2e3852;
+    padding:.5rem;
+    color:inherit;
+    border-radius:5px;
+}
+.input-group .btn{
+    width:100%;
+    margin-top:2rem;
+}
+.join-page-circle-1{
+    width:25vw;
+    height:25vw;
+    background-color:rgb(188,58,128,0.1);
+    border-radius:50%;
+    position:absolute;
+    z-index:-1;
+    bottom:0;
+    left:10vw;
+}
+.join-page-circle-2{
+    width:25vw;
+    height:25vw;
+    background-color:rgb(52,87,178,0.1);
+    z-index:-1;
+    top:0;
+    left:30vw;
+    position:absolute;
+    border-radius:50%;
+}
+@media (max-width: 900px) {
+    .join-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .form-group{
+      width: 80vw;
+      max-width: inherit;
+      margin: 2rem 0;
+    }
+  }
